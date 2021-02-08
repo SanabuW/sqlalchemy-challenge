@@ -70,7 +70,7 @@ def home_func():
     f'/api/v1.0/tobs <br><br>'
     f'*For the two routes below, please enter dates in the format of "YYYY-MM-DD"\
         for "&ltstart&gt" and "&ltend&gt" <br>'
-        #Improvement: make statement about date range
+    f'**Please enter only date ranges on or between 2010-01-01 to 2017-08-23<br>'
     f'/api/v1.0/&ltstart&gt <br>'
     f'/api/v1.0/&ltstart&gt/&ltend&gt <br>'
     )
